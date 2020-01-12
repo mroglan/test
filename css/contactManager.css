@@ -1,0 +1,43 @@
+body, html {
+	margin: 0px;
+	background-color: #C617A8;
+	font-family: "Comic Sans", sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3rem;
+	line-height: 50px;
+	padding: 20px;
+	border: 5px solid black;
+	background-color: blue;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+p, #contactInfo {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+input {
+	line-height: 2.5rem;
+}
+
+button {
+	margin-bottom: 50px;
+}
+
+.contactDisplay {
+	font-size: 2rem;
+	line-height: 50px;
+	padding: 20px;
+	width: 33vw;
+	margin-left: 5px;
+	margin-bottom: 20px;
+	border: 5px solid black;
+	background-color: #4ACD5C;
+	border-radius: 15px;
+}

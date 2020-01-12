@@ -1,0 +1,51 @@
+html, body {
+	font-family: "Comic Sans";
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 100%;
+}
+
+tr:nth-child(odd) td{
+	background-color: orange;
+}
+
+tr, td {
+	padding: 8px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+button {
+    padding: 4px 12px;
+    color: #333333;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    border: 1px solid #cccccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    border-radius: 4px;
+}
+
+button: active {
+	box-shadow: 4px 5px 4px 5px blue;
+	color: #333333;
+	background-color: #e6e6e6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: lightGrey;
+    height: 60px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+    font-weight: bold;
+}

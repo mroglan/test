@@ -1,0 +1,30 @@
+table, th, td {
+	border: 3px solid black;
+}
+table {
+	border-collapse: collapse;
+	width: 1000px;
+}
+th, td {
+	padding: 10px;
+}
+thead {
+	text-align: center;
+	background-color: gray;
+}
+tbody {
+	text-align: left;
+	background-color: lightgray;
+}
+#no-right {
+	border-right: none;
+}
+#no-left {
+	border-left: none;
+}
+#no-top {
+	border-top: none;
+}
+#no-bottom {
+	border-bottom: none;
+}

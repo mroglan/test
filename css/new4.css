@@ -1,0 +1,23 @@
+.female {
+	color: blue;
+}
+.male {
+color: red
+}
+#brooke, #carton{
+	font-weight:bold;
+}
+.italic {
+	font-style: italic;
+}
+#middlemarch {
+	list-style: upper-roman;
+	line-height: 50px;
+	padding-left: 50px;
+}
+#taletwocities {
+	list-style: upper-alpha;
+}
+html, body {
+	font-family: sans-serif
+}

@@ -1,0 +1,51 @@
+html, body {
+	margin: 0px;
+	background-color: #1BE66D;
+	font-size: 30px;
+	line-height: 40px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1rem;
+	padding: 10px 0px;
+	border: 3px solid gray;
+	border-radius: 10px;
+	background-color: #620A0D;
+	color: white;
+}
+
+#inputForm {
+	font-size: .75rem;
+	line-height: 2rem;
+	display: block;
+	width: 25%;
+	float: right;
+	background-color: #2A46D4;
+	border-radius: 10px;
+	margin-right: 2%;
+}
+
+input:invalid:required {
+	background-color: #EA0836;
+	opacity: .8;
+}
+
+
+table {
+	width: 60%;
+	margin-left: 5%;
+}
+
+th {
+	border-bottom: 5px solid black;
+}
+
+td {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+table:last-child {
+	border-bottom: none;
+}

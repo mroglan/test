@@ -1,0 +1,16 @@
+address {
+	font-size: 15px;
+	color: #FF0000;
+}
+
+#phrase {
+	font-size: 20px;
+	color: #008000;
+}
+
+ body {
+	padding: 20px;
+	border-width: 8px;
+	border-color: green;
+	border-style: dashed;
+}

@@ -1,0 +1,19 @@
+table, th, td {
+	border: 1px solid black;
+}
+table {
+	border-collapse: seperate;
+}
+
+th, td {
+	padding: 10px;
+}
+thead, tfoot {
+	background-color: antiquewhite;
+}
+tbody {
+	backgound-color: floralwhite;
+}
+tr:nth-child(even) {
+	background-color: gray;
+}

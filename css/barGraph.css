@@ -1,0 +1,36 @@
+html, body {
+	font-size: 20px;
+	margin: 0px;
+	background-color: #6D9DF0;
+}
+
+h1 {
+	text-align: center;
+	margin: 10px 0px;
+	font-size: 2rem;
+}
+
+#inputs {
+	float: left;
+	margin-left: 5px;
+	font-size: 1rem;
+}
+
+th {
+	border-bottom: 5px solid black;
+}
+
+#xTitle {
+	width: 100px;
+}
+
+#addData {
+	float: left;
+}
+
+#canvas {
+	float: right;
+	border: 1px solid black;
+	margin-right: 50px;
+}
+

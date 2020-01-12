@@ -1,0 +1,25 @@
+li {
+	padding-left: 20pm;
+	font-size: 5pm;
+	line-height: 15pm;
+	font-family: "Comic", "Times New Roman";
+	list-style-image: url("https://prod-edxapp.edx-cdn.org/assets/courseware/v1/073e0b55b08d259174c48c569c6696d9/asset-v1:W3Cx+HTML5.0x+3T2019+type@asset+block/my_triangle.png");
+	list-style-position: inside;
+}
+
+h1 {
+	text-align: center;
+	font-size: 10pm;
+	font-family: Arial, Roboto;
+	color: #8B0000;
+}
+
+span {
+	line-height: 50pm
+}
+
+html, body {
+	background-color: blue;
+	background-border: red;
+	backgound-border-size: 5pm;
+}
